@@ -58,10 +58,10 @@ var section21 = document.querySelector('.section21');
 var section31 = document.querySelector('.section31');
 var section3 = document.querySelector('.section3');
 var section4 = document.querySelector('.section4');
-var nav1 = document.querySelector('.nav-link1');
-var nav2 = document.querySelector('.nav-link2');
-var nav3 = document.querySelector('.nav-link3');
-var nav4 = document.querySelector('.nav-link4');
+var nav1 = document.querySelector('.nav1');
+var nav2 = document.querySelector('.nav2');
+var nav3 = document.querySelector('.nav3');
+var nav4 = document.querySelector('.nav4');
 
 
 section1.addEventListener('click', function(){
