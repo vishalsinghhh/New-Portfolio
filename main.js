@@ -94,3 +94,4 @@ nav3.addEventListener('click', function(){
 nav4.addEventListener('click', function(){
   smoothScroll('.sec41', 1000);
 });
+
