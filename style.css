@@ -676,3 +676,10 @@ footer .column i + i {
 
   /* opacity: 0.1; */
 }
+.loaderimg{
+  position: relative;
+}
+
+.loadertheme{
+  position: absolute;
+}
