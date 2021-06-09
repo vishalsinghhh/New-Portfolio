@@ -69,7 +69,7 @@ nav {
   list-style: none;
 }
 
-.nav-links a {
+.nav-link a {
   color: rgb(226, 226, 226);
   text-decoration: none;
   letter-spacing: 3px;
@@ -124,9 +124,17 @@ nav {
       cursor: pointer;
   }
 }
-
+.nav-link{
+  margin-left: 150px;
+  
+}
 .nav-active {
       transform: translateX(0%);
+      /* background-color: white; */
+}
+.navbar-nav a:hover{
+  background: linear-gradient(to bottom, #dd2476, #ff512f);
+  border-radius: 20px;
 }
 
 @keyframes navLinkFade {
@@ -172,6 +180,13 @@ header a {
   font-size: 0.9em;
   color: whitesmoke;
 }
+
+/* .nav-link01{
+padding: 50px 0px 0px 50px;
+} */
+
+
+
 
 .dropdown-content {
   display: none;
@@ -228,7 +243,6 @@ header .row .col-md-5 img {
 
 header {
   background: #ff512f;
-  /* fallback for old browsers */
   background: var(--bggradient);
 }
 
