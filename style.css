@@ -184,9 +184,9 @@ header a {
 /* .nav-link01{
 padding: 50px 0px 0px 50px;
 } */
-
-
-
+html {
+  scroll-behavior: smooth;
+}
 
 .dropdown-content {
   display: none;
