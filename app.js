@@ -13,4 +13,12 @@ const fadeEffect = setInterval(() => {
 }, 200);
 window.addEventListener('load', fadeEffect);
 
-
+$(document).ready(function(){
+  $('.progressbar').waypoint(function(){
+    $('.progressbar').css({
+      animation:"animate-positive 2s",
+      opacity:"1"
+    });
+  },{offset: '75%'}
+  );
+})
