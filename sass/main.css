@@ -1,0 +1,294 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container_skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0d0d0d;
+}
+
+.container__progressbars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-width: 270px;
+  width: 100%;
+  min-height: 100%;
+}
+
+.progressbar {
+  position: relative;
+  width: 170px;
+  height: 170px;
+  margin: 1em;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.progressbar__svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.progressbar__svg-circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke-width: 10;
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  stroke: white;
+  stroke-linecap: round;
+  -webkit-transform: translate(5px, 5px);
+          transform: translate(5px, 5px);
+}
+
+.shadow-html {
+  -webkit-filter: drop-shadow(0 0 5px #ff6633);
+          filter: drop-shadow(0 0 5px #ff6633);
+}
+
+.shadow-css {
+  -webkit-filter: drop-shadow(0 0 5px #33bbff);
+          filter: drop-shadow(0 0 5px #33bbff);
+}
+
+.shadow-scss {
+  -webkit-filter: drop-shadow(0 0 5px #ff33ff);
+          filter: drop-shadow(0 0 5px #ff33ff);
+}
+
+.shadow-js {
+  -webkit-filter: drop-shadow(0 0 5px #ffff33);
+          filter: drop-shadow(0 0 5px #ffff33);
+}
+
+.shadow-boot {
+  -webkit-filter: drop-shadow(0 0 5px #3377ff);
+          filter: drop-shadow(0 0 5px #3377ff);
+}
+
+.shadow-c_ {
+  -webkit-filter: drop-shadow(0 0 5px #55ff33);
+          filter: drop-shadow(0 0 5px #55ff33);
+}
+
+.shadow-c {
+  -webkit-filter: drop-shadow(0 0 5px #33ffff);
+          filter: drop-shadow(0 0 5px #33ffff);
+}
+
+.shadow-python {
+  -webkit-filter: drop-shadow(0 0 5px #ff3333);
+          filter: drop-shadow(0 0 5px #ff3333);
+}
+
+.shadow-react {
+  -webkit-filter: drop-shadow(0 0 5px #33ff88);
+          filter: drop-shadow(0 0 5px #33ff88);
+}
+
+.shadow-node {
+  -webkit-filter: drop-shadow(0 0 5px #ffbe33);
+          filter: drop-shadow(0 0 5px #ffbe33);
+}
+
+.circle-html {
+  -webkit-animation: anim_circle-html 1s ease-in-out forwards;
+          animation: anim_circle-html 1s ease-in-out forwards;
+}
+
+.circle-css {
+  -webkit-animation: anim_circle-css 1s ease-in-out forwards;
+          animation: anim_circle-css 1s ease-in-out forwards;
+}
+
+.circle-scss {
+  -webkit-animation: anim_circle-scss 1s ease-in-out forwards;
+          animation: anim_circle-scss 1s ease-in-out forwards;
+}
+
+.circle-js {
+  -webkit-animation: anim_circle-js 1s ease-in-out forwards;
+          animation: anim_circle-js 1s ease-in-out forwards;
+}
+
+.circle-boot {
+  -webkit-animation: anim_circle-boot 1s ease-in-out forwards;
+          animation: anim_circle-boot 1s ease-in-out forwards;
+}
+
+.circle-c_ {
+  -webkit-animation: anim_circle-c_ 1s ease-in-out forwards;
+          animation: anim_circle-c_ 1s ease-in-out forwards;
+}
+
+.circle-c {
+  -webkit-animation: anim_circle-c 1s ease-in-out forwards;
+          animation: anim_circle-c 1s ease-in-out forwards;
+}
+
+.circle-python {
+  -webkit-animation: anim_circle-python 1s ease-in-out forwards;
+          animation: anim_circle-python 1s ease-in-out forwards;
+}
+
+.circle-react {
+  -webkit-animation: anim_circle-react 1s ease-in-out forwards;
+          animation: anim_circle-react 1s ease-in-out forwards;
+}
+
+.circle-node {
+  -webkit-animation: anim_circle-node 1s ease-in-out forwards;
+          animation: anim_circle-node 1s ease-in-out forwards;
+}
+
+.progressbar__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0.25em 0.5em;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0.25em;
+  -webkit-transform: translate(-50%, -50%) rotate(90deg);
+          transform: translate(-50%, -50%) rotate(90deg);
+}
+
+@-webkit-keyframes anim_circle-html {
+  to {
+    stroke-dashoffset: 22;
+  }
+}
+
+@keyframes anim_circle-html {
+  to {
+    stroke-dashoffset: 22;
+  }
+}
+
+@-webkit-keyframes anim_circle-css {
+  to {
+    stroke-dashoffset: 66;
+  }
+}
+
+@keyframes anim_circle-css {
+  to {
+    stroke-dashoffset: 66;
+  }
+}
+
+@-webkit-keyframes anim_circle-scss {
+  to {
+    stroke-dashoffset: 132;
+  }
+}
+
+@keyframes anim_circle-scss {
+  to {
+    stroke-dashoffset: 132;
+  }
+}
+
+@-webkit-keyframes anim_circle-js {
+  to {
+    stroke-dashoffset: 88;
+  }
+}
+
+@keyframes anim_circle-js {
+  to {
+    stroke-dashoffset: 88;
+  }
+}
+
+@-webkit-keyframes anim_circle-boot {
+  to {
+    stroke-dashoffset: 66;
+  }
+}
+
+@keyframes anim_circle-boot {
+  to {
+    stroke-dashoffset: 66;
+  }
+}
+
+@-webkit-keyframes anim_circle-c_ {
+  to {
+    stroke-dashoffset: 110;
+  }
+}
+
+@keyframes anim_circle-c_ {
+  to {
+    stroke-dashoffset: 110;
+  }
+}
+
+@-webkit-keyframes anim_circle-c {
+  to {
+    stroke-dashoffset: 154;
+  }
+}
+
+@keyframes anim_circle-c {
+  to {
+    stroke-dashoffset: 154;
+  }
+}
+
+@-webkit-keyframes anim_circle-python {
+  to {
+    stroke-dashoffset: 132;
+  }
+}
+
+@keyframes anim_circle-python {
+  to {
+    stroke-dashoffset: 132;
+  }
+}
+
+@-webkit-keyframes anim_circle-react {
+  to {
+    stroke-dashoffset: 396;
+  }
+}
+
+@keyframes anim_circle-react {
+  to {
+    stroke-dashoffset: 396;
+  }
+}
+
+@-webkit-keyframes anim_circle-node {
+  to {
+    stroke-dashoffset: 426.8;
+  }
+}
+
+@keyframes anim_circle-node {
+  to {
+    stroke-dashoffset: 426.8;
+  }
+}
+/*# sourceMappingURL=main.css.map */

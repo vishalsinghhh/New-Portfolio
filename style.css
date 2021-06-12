@@ -125,7 +125,7 @@ nav {
   }
 }
 .nav-link{
-  margin-left: 150px;
+  margin-left: 10rem;
   
 }
 .nav-active {
@@ -134,7 +134,8 @@ nav {
 }
 .navbar-nav a:hover{
   background: linear-gradient(to bottom, #dd2476, #ff512f);
-  border-radius: 20px;
+  transform: rotate(-15deg);
+  border-radius: 0.5rem;
 }
 
 @keyframes navLinkFade {
