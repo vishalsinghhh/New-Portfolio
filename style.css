@@ -371,6 +371,16 @@ main{
 .numbers {
   margin-top: -15vmin;
 }
+.showMore{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  border: none;
+  border-color: #000;
+}
+.showMore a:hover{
+  background: black;
+}
 
 .numbers .rect h1 {
   font-size: 5rem;
